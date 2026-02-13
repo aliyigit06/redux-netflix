@@ -1,17 +1,57 @@
-# React + Vite
+🎬 Netflix Clone – Movie Streaming UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases a Netflix-inspired movie streaming interface built with React and Vite. It integrates external APIs to fetch dynamic movie data, including trailers, actor details, and categories. The UI features interactive sliders, watchlist management, and category-based filtering, all designed with a modern and responsive layout.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fetch movie data dynamically from external APIs
 
-## React Compiler
+Auto-scrolling movie sliders for a smooth browsing experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Detailed information for each movie, including trailers and cast
 
-## Expanding the ESLint configuration
+Filter movies by categories
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# redux-netflix
+Add or remove movies from a personal watchlist
+
+Interactive and responsive UI powered by Splide sliders
+
+🧠 State & API Management
+
+Global state managed using Redux
+
+Asynchronous API calls handled with Redux Thunk
+
+Optimized API responses rendered efficiently for better performance
+
+🛠️ Technologies Used
+
+💻 Frontend
+
+React
+
+Vite
+
+Tailwind CSS
+
+React Router DOM
+
+Redux / React Redux / Redux Thunk
+
+React Icons
+
+React Player
+
+Axios
+
+Millify
+
+🎞️ UI & Slider
+
+@splidejs/react-splide
+
+@splidejs/splide
+
+@splidejs/splide-extension-video
+
+! [](redux-thunk-netflix.gif)
